@@ -1,0 +1,47 @@
+body{  text-align: center; }
+
+.marquee {
+  color:red;
+  font-size:50px
+}
+
+.marquee > span {
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%;
+  animation-name: MarqueeScroll;
+  animation-timing-function: linear;
+  animation-duration: 7s; 
+  animation-iteration-count: infinite; 
+}
+
+@keyframes MarqueeScroll {
+from { transform: translateX(0);}
+to { transform: translateX(-100%);}
+}
+
+.subtitle{
+  font-size:15px;
+}
+
+.news1{
+  color:red;
+  margin: 10px;
+  padding: 3px;
+  font-size:25px;
+  font-weight: 900;
+}
+
+.news2{
+  color:blue;
+  padding:10px;
+}
+
+form{
+  padding:40px;
+  font-size:20px;
+}
+
+.output{
+  font-size: 40px
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="過去も未来も気になるあの子のことも全て調べることができるPCが、ここは19**年に政府に封鎖された図書館に存在する。">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body background="source/image/background.jpg" oncontextmenu="alert('右クリックは禁止です！');return false">
+        <div class="marquee"><span>国立柳川図書館へようこそ</span></div>
+        <div class="subtitle">本日のアクセス数 0001 人</div>
+        <div class="news1">!!重要!!1997年4月31日をもって閉館いたします。</div>
+        <div class="news2">★★インターネットによる在庫検索機能を実装しました★★</div>
+        <div class="news"><a href="news.html">その他のお知らせはこちら！！</a></div>
+      
+        <form>
+            <label>検索フォーム</label><br>
+            <input type="text" id="input" placeholder="..." >
+            <button onclick="search(event)">送信</button>
+        </form>
+        <div id="result"></div>
+    </body>
+</html>
